@@ -4,6 +4,7 @@ const btnAdicionar = document.querySelector('#btn-adicionar');
 const participantes = document.querySelector('#friends-selection')
 const txtAmigo = document.querySelector('.friend-name')
 const mensagemErro = document.querySelector(".error");
+const btnSorteio = document.querySelector('#btn-sorteio');
 
 btnAdicionar.addEventListener('click',()=>{
     if (txtAmigo.value!=='') {
@@ -21,7 +22,7 @@ btnAdicionar.addEventListener('click',()=>{
         mensagemErro.innerHTML ='ERRO! Insira um valor válido!';
     }
 
-})
+});
 
 /* proximo objetivo: não pode deixar com que possa ser colocado um nome repetido na lista. */
 /* e fazer a lista do sorteio funcionar usando arrays pra pegar os nomes*/

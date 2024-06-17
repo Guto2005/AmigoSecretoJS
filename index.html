@@ -12,7 +12,8 @@
     </header>
     <main class="container">
             <form action="#" class="form-area">
-            <div class="type-area">
+            <div class="left-area">
+                <div class="type-area">
                 <label>Digite o nome do amigo</label>
                 <input type="text" class="friend-name" id="username">
                 <span class="error"></span>
@@ -23,16 +24,18 @@
                 <button type="button" class="restart-button" id="btn-reiniciar">Reiniciar</button>
             </div>
             <div class="friends">
-                <h3>Amigos incluídos para o sorteio</h3>
+                <h3 class="friends-title">Amigos incluídos para o sorteio</h3>
                 <div id="friends-selection" class="friends-selection"></div>
             </div>
-        </section>
-        <section class="result-area">
-            <h2>Sorteio</h2>
-            <ul class="results"></ul>
-        </section>
+            </div>
+            <div class="right-area">
+                <section class="result-area">
+                    <h2 class="results-title">Sorteio</h2>
+                    <ul class="results"></ul>
+                </section>
+            </div>
+        </form>
     </main>
-</form>
     <script src="script.js"></script>
 </body>
 </html>
